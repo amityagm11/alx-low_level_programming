@@ -4,8 +4,9 @@
 
 /**
  *
- * *main - main function 
- * *Description: Get a random number and print the number, 
+ * main - main function 
+ * Description: Get a random number and print the number, 
+ *
  * it is positive, negative, or zero
  * Return: 0
  */
