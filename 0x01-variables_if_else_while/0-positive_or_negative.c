@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - main function 
- * Description: Get a random number and print the number, it is positive, negative, or zero
+ * Description: Get a random number and print the number, 
+ * it is positive, negative, or zero
  * Return: 0
  */
+
 int main(void)
 {
 	int n;
@@ -21,4 +24,3 @@ int main(void)
 
 	return (0);
 }
-
