@@ -3,20 +3,22 @@
 #include <stdlib.h>
 
 /*
-* main - main block
-* Description: base 10 single digit no
-* Return: 0
-*/
+ * main - main block
+ * Description: sigle digit nos of base 10
+ * from 0, and newline
+ */
 
 int main(void)
 {
-  char c = 'z';
+ 	char c = 'z';
   
-  while (c >= 'a')
-  {
-    putchar(c);
-    c--;
-  }
-  putchar('\n');
-  return (0);
+	while (c >= 'a')
+ 	{
+  		putchar(c);
+    		c--;
+  	}
+
+ 	putchar('\n');
+ 	return (0);
+
 }
