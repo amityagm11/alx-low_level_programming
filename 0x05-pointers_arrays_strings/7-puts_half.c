@@ -1,14 +1,21 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
+
 /**
  * puts_half - prints a string
  * @str: pointer
  * Return: void
  */
+
 void puts_half(char *str)
 {
-	int len = 0;
+	int len = strlen(str);
+	int i;
 
-	for (int i = (len + 1) / 2; str[i] != '\0'; i++)
+	i = (len + 1) / 2;
+
+	for (i; i <= len; i++)
 	{
 		_putchar(str[i]);
 	}
