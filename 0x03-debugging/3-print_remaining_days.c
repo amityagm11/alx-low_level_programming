@@ -3,6 +3,7 @@
 
 /**
  * rint_remaining_days - prints
+ * Description: month day year
  * @month: month in number format
  * @day: day of month
  * @year: year
