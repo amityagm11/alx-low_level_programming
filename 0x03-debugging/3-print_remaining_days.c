@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * rint_remaining_days - prints
+ * print_remaining_days - prints
  * Description: month day year
  * @month: month in number format
  * @day: day of month
