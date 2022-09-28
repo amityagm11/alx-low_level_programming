@@ -2,13 +2,19 @@
 /**
  * _sqrt_recursion - find square root
  * @n: int
- * @val: square root
  * Return: int
  */
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
 }
+
+/**
+ * square - find square root
+ * @n: int
+ * @val: square root
+ * Return: int
+ */
 
 int square(int n, int val)
 {
