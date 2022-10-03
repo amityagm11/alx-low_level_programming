@@ -2,14 +2,14 @@
 
 /**
  * main - print every arguments
- * @argv - list
- * @argc - count
+ * @argv: list
+ * @argc: count
  * Return: 0
  */
 
 int main(int argc, char const *argv[])
 {
-	int i,j;
+	int i, j;
 	(void)argv;
 
 	j = argc - 1;
@@ -18,8 +18,5 @@ int main(int argc, char const *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
-	
 	return (0);
 }
-	
-
